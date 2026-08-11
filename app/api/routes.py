@@ -6,7 +6,7 @@ router = APIRouter()
 
 @router.get("/")
 def root():
-    return {"message": "Welcome to the SupportOps!"}
+    return {"message": "Welcome to SupportOps!"}
 
 
 @router.get("/health")
